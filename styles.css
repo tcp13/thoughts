@@ -24,6 +24,7 @@ h2 {font-size: 1.4rem;}
 a{
     color:var(--white);
     text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
 }
 a:hover {opacity: 0.8;}
 p {
@@ -43,7 +44,10 @@ body{
     margin: 6% 8%;
 }
 main{
-    width:100%;
+    width:60%;
+}
+header{
+    margin-bottom:5rem;
 }
 
 
@@ -72,5 +76,7 @@ main{
         --black: #FFFFFF;
         --white: #243046;
     }
-    
+    main{
+        width:100%;
+    }
 }
